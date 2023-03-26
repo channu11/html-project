@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+$brand: #055999;
+
+.logo {
+    width: 110px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: $brand;
+    padding: 10px 20px;
+
+    &:hover {
+        @extend .abc;
+    }
+}
+
+.abc {
+    background-color: $brand;
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    @extend .abc;
+
+}
+
+.box {
+    background: #efefef;
+    padding: 30px 20px;
+    border: 1px solid #efefef;
+
+    &:hover {
+        border: 1px solid $brand;
+        background-color: #fff;
+    }
+
+    h1 {
+        font-size: 66px;
+        padding: 30px 0px;
+    }
+}
+
+.bg1 {
+    background: $brand;
+    color: #fff;
+}
+
+.team {
+    @extend .abc;
+}
+
+.clients img {
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: grayscale(0%);
+    }
+}
+
+.owl nav {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+
+.footer {
+    background-color: #1B1B1B;
+   color: rgb(191, 187, 187);
+    font-size: 12px;
+    
+
+    ul {
+        list-style: none;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    li {
+        line-height:24px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(191, 187, 187);
+        font-size: 12px;
+
+        &:hover {
+            color: #ffff;
+        }
+    }
+}
+ .footer h5{color:white;}
+ .breadcrumbb{
+    background:  #2056AE url(https://webthemez.com/demo/overtake-business-bootstrap-html-website-template/img/slides/1.jpg);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 30px;
+   
+
+ }
+.lorem{color: rgb(108, 102, 102);
+font-size: 13px;}
+input{border:2px solid #ccc;}
+
+.bg3
+{
+    background-color:$brand;
+    color:white;
+    margin-left: 365px;
+   
+}
+
+
+// .port
+// {
+//     color:#ccc;
+//     ul 
+//     {
+//         list-style: none;
+//         display:inline;
+        
+      
+
+//             a 
+//             { text-decoration: none;
+//                 color:#ccc;
+//                 font-size: 12px;
+//                 &:hover{color:rgb(15, 25, 90)}
+//             }
+        
+//     }
+// }
+
+.box4
+{
+    border:1px solid #ccc;
+    padding: 5px;
+}
+.box4 h3{
+    color:$brand;
+    font-weight: bold;
+}
+.icon
+{
+   
+    h4 
+    {
+        border: 1px solid $brand;
+        width:80px;
+        height: 50px;
+        padding-top: 10px;
+        color:rgb(241, 176, 55);
+       
+        background: $brand;
+       
+        text-align: center;
+       
+    }
+}
+    
+
